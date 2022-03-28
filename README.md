@@ -37,7 +37,7 @@ Below is a policy that does the following:
 * Still allow users to set up MFA if they logged in without it
 * Enforce these rules for both console and API aceess
 
-It is best to create this as an IAM policy, and then attach it to any user groups that have human users.  You can also attach the policy to a user directly, but that's harder to manage.
+It is best to create this as an IAM policy called "RequireMFAEverywhere", and then attach it to any user groups that have human users.  You can also attach the policy to a user directly, but that's harder to manage.
 
 ```
 {
