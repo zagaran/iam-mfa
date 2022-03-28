@@ -13,7 +13,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    description="Command line tool to manage AWS CLI credentials with MFA (multi-factor authentication)",
+    description="A command line tool to manage AWS CLI credentials with MFA (multi-factor authentication)",
     entry_points={
         "console_scripts": ["iam-mfa=iam_mfa.iam_mfa:main"],
     },
