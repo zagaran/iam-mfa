@@ -10,8 +10,7 @@ The tool takes a source IAM profile (which should store your permanent credentia
 
 It's a pip library, installed by `pip install iam-mfa`.
 
-It requires the AWS CLI: https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html
-
+It requires version 2 of the AWS CLI: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html.  It uses the AWS CLI to manage the configuration and credential files: https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html
 
 ## Usage
 
